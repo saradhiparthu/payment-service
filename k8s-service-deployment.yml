@@ -23,11 +23,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: order-service
+  name: payment-service
 spec:
   type: ClusterIP
   selector:
-    app: order-service
+    app: payment-service
   ports:
     - protocol: TCP
       port: 80
