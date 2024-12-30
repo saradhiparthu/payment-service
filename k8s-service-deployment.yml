@@ -16,7 +16,7 @@ spec:
         - name: payment-service
           image: kushalpulivarthi/payment-service:1.0
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
 
 ---
 
@@ -31,4 +31,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8080
+      targetPort: 8081
